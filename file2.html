@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: rgb(0, 255, 30);
+            border: 2px solid;
+           display: grid;
+           grid-template-columns: auto auto auto auto;
+            height: 500px;
+            width: 600px;
+           
+        }
+        div{
+            background-color:rgb(255, 255, 255) ;
+            padding: 30px;
+            border: 1px solid;
+            margin: 1px;
+            gap: 10px 10px;
+            color: blue;
+        }
+        .item1{
+            grid-row:1/3  ;
+        }
+        .item3{
+            grid-column: 3/5;
+        }
+        .item13{
+            grid-column: 3/5;
+        }
+        .item5{
+            grid-row: 2/4;
+            grid-column: 3/4;
+        }
+        .item8{
+            grid-row: 3/5;
+            grid-column: 2/3;
+        }
+           h2{
+            position: relative;
+            top: 50px;
+            left: 50px;
+            color: white;
+           }
+           
+        
+        
+       
+        
+    </style>
+</head>
+<body>
+    <h2>css grid examples  </h2>
+    <div class="container">
+        
+        <div class="item1">masonary l</div>
+        <div class="item2">responsive</div>
+        <div class="item3">overlap</div>
+        <div class="item4">fluid</div>
+        <div class="item5">explicitly placed</div>
+        <div class="item6">negative space</div>
+        <div class="item7">flexiable breadth</div>
+        <div class="item8">masonary ll</div>
+        <div class="item9">masonary lll</div>
+        <div class="item10">Dom order</div>
+        <!-- <div class="ite11">item11</div> -->
+        <!-- <div class="item12">item12</div> -->
+        <div class="item13">Named tracks</div>
+        <!-- <div class="item14">item14</div> -->
+        <!-- <div class="item15">item15</div> -->
+        <!-- <div class="item16">item16</div> -->
+    </div>
+</body>
+</html>

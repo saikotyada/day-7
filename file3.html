@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+           background-color: rgb(8, 8, 8); 
+           border: 1px solid;
+           display: grid;
+           grid-template-columns: auto  auto auto;
+           height: 400px;
+           width: 500px;
+         
+        }
+        .container div{
+           
+            padding: 10px;
+            margin: 10px;
+            gap: 10px 20px;
+            color: white;
+
+            }
+            .item1 {
+                grid-column: 1/4;
+                background-color: rgb(226, 43, 70);
+
+              
+               
+            }
+            .item13{
+                grid-column: 1/4;
+                background-color: rgb(43, 226, 137);
+            }
+            .item4{
+                grid-row: 2/5;
+                background-color: rgb(255, 0, 0);
+            }
+            .item6{
+                grid-column: 2/4;
+                grid-row: 2/4;
+                background:linear-gradient(aqua,blue)
+                
+            }
+            .item5{
+                background:linear-gradient(rgb(255, 111, 0),rgb(0, 255, 229))
+            }
+            .item7{
+                background:linear-gradient(rgb(13, 255, 0),rgb(255, 0, 0))
+            }
+            
+            
+               
+            
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">header</div>
+       <div class="item4">slidebar</div>
+        <div class="item5">content-2</div>
+        <div class="item6">content-1</div>
+        <div class="item7">content-3</div>
+       <div class="item13">footer</div>
+        
+        
+
+    </div>
+</body>
+</html>
